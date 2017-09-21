@@ -1,0 +1,44 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    
+    
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <color name="C_black">#000000</color>
+    <color name="BG_profile">#f27777</color>
+    <color name="BG_challenge">#eec147</color>
+    <color name="BG_library">#2e3559</color>
+    <color name="C_white">#FFFFFF</color>
+    <color name="C_shadow">#AAAAAA</color>
+    <color name="C_P_background">#2e3559</color>
+    <color name="C_P_background2">#0190de</color>
+    <color name="C_P_text">#07c9cc</color>
+    <color name="C_L_L1">#eec249</color>
+    <color name="C_L_L2">#f27877</color>
+    <color name="C_L_L3">#3242cc</color>
+    <color name="C_L_L4">#652eff</color>
+    <color name="C_L_L5">#07c9cc</color>
+    <color name="C_L_L6">#2e3559</color>
+    <color name="R_BG_1">#0190de</color>
+    <color name="R_BG_2">#07c9cc</color>
+    <color name="R_BG_3">#f2eac2</color>
+    <color name="R_SCORE_BAR_BG1">#d1cebb</color>
+    <color name="R_SCORE_BAR_BG2">#93bf9e</color>
+    <color name="R_SCORE_BAR_BG3">#a7a494</color>
+
+</resources>

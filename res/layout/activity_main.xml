@@ -1,0 +1,127 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/C_black"
+    android:clickable="false"
+    android:orientation="vertical"
+    tools:context="tw.im.ncue.imking.MainActivity" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/B_Profile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/BG_profile"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp" >
+
+                <ImageView
+                    android:id="@+id/R_back_button"
+                    android:layout_width="98dp"
+                    android:layout_height="177dp"
+                    android:src="@drawable/inter1_profile" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|center_vertical"
+                    android:layout_weight="1"
+                    android:freezesText="false"
+                    android:gravity="center_horizontal"
+                    android:includeFontPadding="true"
+                    android:linksClickable="false"
+                    android:scrollHorizontally="false"
+                    android:shadowColor="@color/C_shadow"
+                    android:shadowDx="1"
+                    android:shadowDy="1"
+                    android:shadowRadius="2"
+                    android:text="PROFILE"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/C_white"
+                    android:textSize="35sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/B_Challenge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/BG_challenge"
+                android:clickable="true"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp" >
+
+                <ImageView
+                    android:id="@+id/P_IMG_L"
+                    android:layout_width="98dp"
+                    android:layout_height="177dp"
+                    android:src="@drawable/inter1_challenge" />
+
+                <TextView
+                    android:id="@+id/P_score"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|center_vertical"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:shadowColor="@color/C_shadow"
+                    android:shadowDx="1"
+                    android:shadowDy="1"
+                    android:shadowRadius="2"
+                    android:text="CHALLENGE"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/C_white"
+                    android:textSize="35sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/B_Library"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/BG_library"
+                android:clickable="true"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp" >
+
+                <ImageView
+                    android:id="@+id/ImageView02"
+                    android:layout_width="98dp"
+                    android:layout_height="177dp"
+                    android:src="@drawable/inter1_library" />
+
+                <TextView
+                    android:id="@+id/R_myScore"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|center_vertical"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:shadowColor="@color/C_shadow"
+                    android:shadowDx="1"
+                    android:shadowDy="1"
+                    android:shadowRadius="2"
+                    android:text="LIBRARY"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textColor="@color/C_white"
+                    android:textSize="35sp" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
